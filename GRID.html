@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid test 2</title>
+</head>
+<style>
+/* base d'exemple https://getbootstrap.com/docs/4.1/examples/album/# */
+
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    padding:20px;
+    }
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:5em;
+    grid-auto-rows: 100px;
+    }
+
+.row img {
+    border-radius: 1%;
+}
+
+.card-body {
+    background-color:grey;
+    color:white;
+    text-align: left;
+    padding:0.25rem;
+    }
+
+
+</style>
+
+
+
+
+<body>
+    
+    <h1>
+        MON ALBUM PHOTO
+    </h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="images/logo.png" alt="logo SIMPLON" width="200">
+                    <div class="card-body">
+                        <p>
+                            Mon projet blablabalbalablabalabalabllbalbalablab
+                            bsdbkboefbejscb
+                            efbpenc cojesnfosnz c
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dolorum officiis odit qui porro maxime, cumque modi illo atque laborum nulla, maiores laboriosam voluptate a eius tempora animi vero consectetur?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="images/logo.png" alt="logo SIMPLON" width="200">
+                    <div class="card-body">
+                        <p>
+                            Mes epériences blablabalbalablabalabalabllbalbalablab
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="images/logo.png" alt="logo SIMPLON" width="200">
+                    <div class="card-body">
+                        <p>
+                            Mes passions blablabalbalablabalabalabllbalbalablab
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+</html>
